@@ -1,0 +1,786 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+body header .header-img {
+  width: 100%;
+  height: 100%;
+}
+body header .header-img-mobile {
+  display: none;
+}
+body .section-one {
+  margin-top: 80px;
+  margin-left: 115px;
+}
+body .section-one .top-content {
+  display: flex;
+}
+body .section-one .top-content .list .logo .heading {
+  height: 68px;
+  width: 440px;
+}
+body .section-one .top-content .list .logo .heading-mobile {
+  display: none;
+}
+body .section-one .top-content .list .exclusive-benefits .exclusive-benefits-content {
+  height: 36px;
+  width: 540px;
+  margin-top: 20px;
+  font-size: 32px;
+}
+body .section-one .top-content .list .list-content {
+  margin-top: 70px;
+}
+body .section-one .top-content .list .list-content ul .li-flex-content {
+  display: flex;
+  margin-top: 29px;
+}
+body .section-one .top-content .list .list-content ul .li-flex-content li {
+  font-size: 22px;
+  list-style: none;
+  margin-left: 13px;
+}
+body .section-one .top-content .list .facebook-join-section {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+body .section-one .top-content .list .facebook-join-section .facebook-join-btn {
+  height: 50px;
+  width: 365px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFF;
+  background-color: #1877F2;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+body .section-one .top-content .list .facebook-join-section .facebook-join-btn .facebook-join-btn-img {
+  margin-left: 10px;
+  height: 34px;
+  width: 34px;
+}
+body .section-one .tablet-img-sec .tablet-img {
+  display: none;
+}
+body .section-one .mobile-img-sec .mobile-img {
+  display: none;
+}
+body .section-one .section-one-bottom {
+  width: 1200px;
+  height: 80px;
+  text-align: center;
+  margin-top: 60px;
+}
+body .section-one .section-one-bottom .bttom-sec .bttom-content {
+  font-size: 32px;
+}
+body .section-one .section-one-bottom .bttom-sec .bttom-content-mobile {
+  display: none;
+}
+body .section-two {
+  margin: 20px 0 0 65px;
+}
+body .section-two .delivered-inbox-main {
+  display: flex;
+  height: 135px;
+  width: 1310px;
+  background-color: #525252;
+  background-image: url(/images/deleverd-background-img.png);
+}
+body .section-two .delivered-inbox-main .deliverd-inbox-logo .deliverd-inbox-logo-img {
+  margin: 40px 0 0 40px;
+}
+body .section-two .delivered-inbox-main .deleverd-inbox-text-section {
+  margin: 50px 0 0 14px;
+  height: 37px;
+  width: 640px;
+}
+body .section-two .delivered-inbox-main .deleverd-inbox-text-section .deleverd-inbox-text-content {
+  font-size: 28px;
+  font-weight: 700;
+}
+body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+}
+body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn .email-input-box .email-input-box-input {
+  height: 50px;
+  width: 435px;
+  border: 1px solid #ACACAC;
+  outline: none;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn .sign-up-btn-section .sign-up-btn {
+  height: 50px;
+  width: 100px;
+  background-color: #E04E00;
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFF;
+}
+body .section-two .tablet-delivered-inbox-main {
+  display: none;
+}
+body .section-two .mobile-delivered-inbox-main {
+  display: none;
+}
+body .section-two .product-image-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 70px;
+}
+body .section-two .product-image-section .product-image-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+body .section-two .product-image-section .product-image-content .product-content {
+  width: 275px;
+  height: 128px;
+}
+body .section-two .product-image-section .product-image-content .product-content .product-text-content {
+  font-size: 24px;
+  font-weight: 700;
+}
+body .section-two .product-image-section .product-image-content .product-content .profile-image-section {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+body .section-three {
+  background-image: url(/images/section-three-background.png);
+  width: 1440px;
+  height: 380px;
+  display: flex;
+}
+body .section-three .img-content-sec .section-three-profile-image .third-sec-profile-image {
+  margin: 30px 0 0 175px;
+}
+body .section-three .section-three-content-sec .section-three-content {
+  margin: 98px 0 0 40px;
+}
+body .section-three .section-three-content-sec .section-three-content .section-three-content-text {
+  width: 730px;
+  height: 139px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffff;
+}
+body .section-three .section-three-content-sec .section-three-content .onwer-name .onwer-name-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FAC9AF;
+}
+body .mobile-section-three {
+  display: none;
+}
+body footer .tablet-footer {
+  display: none;
+}
+body footer .mobile-footer {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 1024px;
+    margin: auto;
+  }
+  body header .header-img {
+    width: 1024px;
+    height: 130px;
+  }
+  body .section-one {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+  body .section-one .top-content {
+    display: flex;
+  }
+  body .section-one .top-content .list .logo .heading {
+    height: 62px;
+    width: 400px;
+  }
+  body .section-one .top-content .list .exclusive-benefits .exclusive-benefits-content {
+    height: 36px;
+    width: 446px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  body .section-one .top-content .list .list-content {
+    margin-top: 70px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content {
+    display: flex;
+    margin-top: 29px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content li {
+    font-size: 22px;
+    list-style: none;
+    margin-left: 13px;
+  }
+  body .section-one .top-content .list .facebook-join-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn {
+    height: 50px;
+    width: 365px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFF;
+    background-color: #1877F2;
+    border: 0;
+    display: flex;
+    align-items: center;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn .facebook-join-btn-img {
+    margin-left: 10px;
+    height: 34px;
+    width: 34px;
+  }
+  body .section-one .top-content .left-side .left-side-img {
+    height: 520px;
+    width: 685px;
+  }
+  body .section-one .tablet-img-sec .tablet-img {
+    display: none;
+  }
+  body .section-one .section-one-bottom {
+    width: 974px;
+    height: 42px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content {
+    font-size: 30px;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content-mobile {
+    display: none;
+  }
+  body .section-two {
+    margin: 52px 0 0 25px;
+  }
+  body .section-two .delivered-inbox-main {
+    display: flex;
+    height: 135px;
+    width: 974px;
+    background-color: #525252;
+    background-image: url(/images/deleverd-background-img.png);
+  }
+  body .section-two .delivered-inbox-main .deliverd-inbox-logo .deliverd-inbox-logo-img {
+    margin: 40px 0 0 30px;
+  }
+  body .section-two .delivered-inbox-main .deleverd-inbox-text-section {
+    margin: 50px 0 0 14px;
+    height: 59px;
+    width: 306px;
+  }
+  body .section-two .delivered-inbox-main .deleverd-inbox-text-section .deleverd-inbox-text-content {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn .email-input-box .email-input-box-input {
+    height: 50px;
+    width: 325px;
+    border: 1px solid #ACACAC;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  body .section-two .delivered-inbox-main .deleverd-inbox-form-section .email-input-and-btn .sign-up-btn-section .sign-up-btn {
+    height: 50px;
+    width: 100px;
+    background-color: #E04E00;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFF;
+  }
+  body .section-two .tablet-delivered-inbox-main {
+    display: none;
+  }
+  body .section-two .mobile-delivered-inbox-main {
+    display: none;
+  }
+  body .section-two .product-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 60px;
+  }
+  body .section-two .product-image-section .product-image-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  body .section-two .product-image-section .product-image-content .product-image .product {
+    width: 215px;
+    height: 256px;
+  }
+  body .section-two .product-image-section .product-image-content .product-content {
+    width: 204px;
+    height: 104px;
+  }
+  body .section-two .product-image-section .product-image-content .product-content .product-text-content {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  body .section-two .product-image-section .product-image-content .product-content .profile-image-section {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body .section-three {
+    background-image: url(/images/section-three-background.png);
+    width: 1024px;
+    height: 360px;
+    display: flex;
+  }
+  body .section-three .img-content-sec .section-three-profile-image .third-sec-profile-image {
+    margin: 30px 0 0 25px;
+  }
+  body .section-three .section-three-content-sec .section-three-content {
+    margin: 87px 0 0 40px;
+  }
+  body .section-three .section-three-content-sec .section-three-content .section-three-content-text {
+    width: 634px;
+    height: 120px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+  }
+  body .section-three .section-three-content-sec .section-three-content .onwer-name .onwer-name-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FAC9AF;
+  }
+  body .mobile-section-three {
+    display: none;
+  }
+  body .footer-section {
+    width: 1024px;
+    height: 250px;
+  }
+  body .tablet-footer {
+    display: none;
+  }
+  body .mobile-footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+  }
+  body header .header-img {
+    width: 768px;
+    height: 90px;
+  }
+  body .section-one {
+    margin-top: 60px;
+  }
+  body .section-one .top-content .list .logo .heading {
+    height: 62px;
+    width: 400px;
+    margin-left: 184px;
+  }
+  body .section-one .top-content .list .exclusive-benefits .exclusive-benefits-content {
+    height: 32px;
+    width: 698px;
+    margin-top: 26px;
+    margin-left: 80px;
+    font-size: 28px;
+    font-weight: 900;
+  }
+  body .section-one .top-content .list .list-content {
+    margin-top: 70px;
+    margin-left: 212px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content {
+    display: flex;
+    margin-top: 29px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content li {
+    font-size: 20px;
+    list-style: none;
+    margin-left: 13px;
+  }
+  body .section-one .top-content .list .facebook-join-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn {
+    height: 50px;
+    width: 365px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFF;
+    background-color: #1877F2;
+    border: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 201px;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn .facebook-join-btn-img {
+    margin-left: 10px;
+    height: 34px;
+    width: 34px;
+  }
+  body .section-one .top-content .left-side .left-side-img {
+    display: none;
+  }
+  body .section-one .tablet-img-sec .tablet-img {
+    display: block;
+    width: 698px;
+    height: 529;
+    margin: 50px 0 0 35px;
+  }
+  body .section-one .section-one-bottom {
+    width: 974px;
+    height: 42px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content {
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: 200px;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content-mobile {
+    display: none;
+  }
+  body .section-two {
+    margin: 52px 0 0 25px;
+  }
+  body .section-two .delivered-inbox-main {
+    display: none;
+  }
+  body .section-two .tablet-delivered-inbox-main {
+    display: block;
+    background-image: url(/images/tablet-deleverd-background.png);
+    width: 698px;
+    height: 255px;
+    text-align: center;
+  }
+  body .section-two .tablet-delivered-inbox-main .tablet-deliverd-inbox-logo .tablet-deliverd-inbox-logo-img {
+    margin: 30px 0 0 0;
+    padding: 0 0 20px 0;
+  }
+  body .section-two .tablet-delivered-inbox-main .tablet-deleverd-inbox-text-section .tablet-deleverd-inbox-text-content {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 0 30px 0;
+  }
+  body .section-two .tablet-delivered-inbox-main .tablet-deleverd-inbox-form-section .tablet-email-input-and-btn {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 0 132px;
+  }
+  body .section-two .tablet-delivered-inbox-main .tablet-deleverd-inbox-form-section .tablet-email-input-and-btn .tablet-email-input-box .tablet-email-input-box-input {
+    width: 325px;
+    height: 50px;
+    border: 1px solid #ACACAC;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  body .section-two .tablet-delivered-inbox-main .tablet-deleverd-inbox-form-section .tablet-email-input-and-btn .tablet-sign-up-btn-section .tablet-sign-up-btn {
+    width: 100px;
+    height: 50px;
+    background-color: #E04E00;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFF;
+  }
+  body .section-two .mobile-delivered-inbox-main {
+    display: none;
+  }
+  body .section-two .product-image-section {
+    margin: 40px 0 0 153px;
+  }
+  body .section-three {
+    margin: 60px 0 0 0;
+    background-image: url(/images/section-three-background.png);
+    width: 768px;
+    height: 249px;
+    display: flex;
+  }
+  body .section-three .img-content-sec .section-three-profile-image .third-sec-profile-image {
+    margin: 22px 0 0 35px;
+    width: 200px;
+    height: 200px;
+  }
+  body .section-three .section-three-content-sec .section-three-content {
+    margin: 44px 0 0 36px;
+  }
+  body .section-three .section-three-content-sec .section-three-content .section-three-content-text {
+    width: 462px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffff;
+  }
+  body .section-three .section-three-content-sec .section-three-content .onwer-name .onwer-name-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FAC9AF;
+  }
+  body .mobile-section-three {
+    display: none;
+  }
+  body footer .footer-section {
+    display: none;
+  }
+  body footer .tablet-footer {
+    display: block;
+  }
+  body footer .mobile-footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 375px;
+    width: 100%;
+    margin: auto;
+  }
+  body header .header-img {
+    display: none;
+  }
+  body header .header-img-mobile {
+    display: block;
+  }
+  body .section-one {
+    margin-top: 60px;
+  }
+  body .section-one .top-content .list .logo .heading {
+    display: none;
+  }
+  body .section-one .top-content .list .logo .heading-mobile {
+    margin: 30px 0 0 48px;
+    display: block;
+  }
+  body .section-one .top-content .list .exclusive-benefits .exclusive-benefits-content {
+    height: 58px;
+    width: 334px;
+    margin-top: 26px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  body .section-one .top-content .list .list-content {
+    margin-top: 20px;
+    margin-left: 33px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content {
+    display: flex;
+    margin-top: 29px;
+  }
+  body .section-one .top-content .list .list-content ul .li-flex-content li {
+    font-size: 20px;
+    list-style: none;
+    margin-left: 13px;
+  }
+  body .section-one .top-content .list .facebook-join-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn {
+    height: 44px;
+    width: 321px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFF;
+    background-color: #1877F2;
+    border: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+  }
+  body .section-one .top-content .list .facebook-join-section .facebook-join-btn .facebook-join-btn-img {
+    margin-left: 10px;
+    height: 34px;
+    width: 34px;
+  }
+  body .section-one .top-content .left-side .left-side-img {
+    display: none;
+  }
+  body .section-one .tablet-img-sec .tablet-img {
+    display: none;
+    width: 698px;
+    height: 529;
+    margin: 50px 0 0 35px;
+  }
+  body .section-one .mobile-img-sec .mobile-img {
+    display: block;
+    margin: 50px 0 0 20px;
+  }
+  body .section-one .section-one-bottom {
+    width: 400px;
+    height: 53px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content {
+    display: none;
+  }
+  body .section-one .section-one-bottom .bttom-sec .bttom-content-mobile {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  body .section-one .section-one-bottom .bottom-img-sec .bottom-img {
+    width: 122px;
+    height: 9;
+  }
+  body .section-two {
+    margin: 52px 0 0 25px;
+  }
+  body .section-two .delivered-inbox-main {
+    display: none;
+  }
+  body .section-two .tablet-delivered-inbox-main {
+    display: none;
+    background-image: url(/images/tablet-deleverd-background.png);
+    width: 698px;
+    height: 255px;
+    text-align: center;
+  }
+  body .section-two .mobile-delivered-inbox-main {
+    display: block;
+    margin: 0 0 0 20px;
+    background-image: url(/images/tablet-deleverd-background.png);
+    width: 334px;
+    height: 325px;
+    text-align: center;
+  }
+  body .section-two .mobile-delivered-inbox-main .mobile-deliverd-inbox-logo .mobile-deliverd-inbox-logo-img {
+    margin: 30px 0 0 0;
+    padding: 0 0 20px 0;
+  }
+  body .section-two .mobile-delivered-inbox-main .mobile-deleverd-inbox-text-section .mobile-deleverd-inbox-text-content {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 30px 0;
+  }
+  body .section-two .mobile-delivered-inbox-main .mobile-deleverd-inbox-form-section .mobile-email-input-and-btn .mobile-email-input-box .mobile-email-input-box-input {
+    width: 294px;
+    height: 50px;
+    border: 1px solid #ACACAC;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  body .section-two .mobile-delivered-inbox-main .mobile-deleverd-inbox-form-section .mobile-email-input-and-btn .mobile-sign-up-btn-section .mobile-sign-up-btn {
+    margin: 10px 0 0 0;
+    width: 294px;
+    height: 50px;
+    background-color: #E04E00;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFF;
+  }
+  body .section-two .product-image-section {
+    margin: 40px 0 0 72px;
+  }
+  body .section-two .product-image-section .product-image-content {
+    margin: 80px 0 0 0px;
+  }
+  body .section-two .product-image-section .product-image-content .product-image .product {
+    width: 215px;
+    height: 256px;
+  }
+  body .section-two .product-image-section .product-image-content .product-content {
+    width: 204px;
+    height: 104px;
+  }
+  body .section-two .product-image-section .product-image-content .product-content .product-text-content {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  body .section-two .product-image-section .product-image-content .product-content .profile-image-section {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body .section-three {
+    display: none;
+  }
+  body .mobile-section-three {
+    display: block;
+    margin: 140px 0 0 0;
+    background-image: url(/images/mobile-section-three-background.png);
+    width: 375px;
+    height: 480px;
+  }
+  body .mobile-section-three .mobile-img-content-sec .mobile-section-three-profile-image .mobile-third-sec-profile-image {
+    margin: 22px 0 0 87px;
+    width: 200px;
+    height: 200px;
+  }
+  body .mobile-section-three .mobile-section-three-content-sec .mobile-section-three-content {
+    margin: 30px 0 0 20px;
+  }
+  body .mobile-section-three .mobile-section-three-content-sec .mobile-section-three-content .mobile-section-three-content-text {
+    width: 334px;
+    height: 144px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffff;
+  }
+  body .mobile-section-three .mobile-section-three-content-sec .mobile-section-three-content .mobile-onwer-name .mobile-onwer-name-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FAC9AF;
+  }
+  body footer .footer-section {
+    display: none;
+  }
+  body footer .tablet-footer {
+    display: none;
+  }
+  body footer .mobile-footer {
+    display: block;
+  }
+}
